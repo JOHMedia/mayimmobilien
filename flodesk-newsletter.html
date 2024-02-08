@@ -1,0 +1,73 @@
+<div class="ff-61766bc111f43d26e0bfc515" data-ff-el="root" data-ff-version="3" data-ff-type="inline" data-ff-name="ribbonBanner">
+  <!--tpl {% block config %} tpl-->
+  <div data-ff-el="config" data-ff-config="eyJ0cmlnZ2VyIjp7Im1vZGUiOiJpbW1lZGlhdGVseSIsInZhbHVlIjowfSwib25TdWNjZXNzIjp7Im1vZGUiOiJtZXNzYWdlIiwibWVzc2FnZSI6IiIsInJlZGlyZWN0VXJsIjoiIn0sImNvaSI6dHJ1ZSwic2hvd0ZvclJldHVyblZpc2l0b3JzIjp0cnVlLCJub3RpZmljYXRpb24iOnRydWV9" style="display: none"></div>
+  <!--tpl {% endblock %} tpl-->
+  <div class="ff-61766bc111f43d26e0bfc515__container">
+    <form class="ff-61766bc111f43d26e0bfc515__form" action="https://form.flodesk.com/forms/61766bc111f43d26e0bfc515/submit" method="post" data-ff-el="form">
+      <div class="ff-61766bc111f43d26e0bfc515__title">
+        <div></div>
+      </div>
+      <div class="ff-61766bc111f43d26e0bfc515__subtitle">
+        <div></div>
+      </div>
+      <div class="ff-61766bc111f43d26e0bfc515__content fd-form-content" data-ff-el="content">
+        <div class="ff-61766bc111f43d26e0bfc515__fields" data-ff-el="fields">
+          <!--tpl {% block fields %} tpl-->
+
+          <div class="ff-61766bc111f43d26e0bfc515__field fd-form-group">
+            <input id="ff-61766bc111f43d26e0bfc515-firstName" class="ff-61766bc111f43d26e0bfc515__control fd-form-control" type="text" maxlength="255" name="firstName" placeholder="Name" data-ff-tab="firstName::email" />
+            <label for="ff-61766bc111f43d26e0bfc515-firstName" class="ff-61766bc111f43d26e0bfc515__label fd-form-label">Name</label>
+          </div>
+
+          <div class="ff-61766bc111f43d26e0bfc515__field fd-form-group">
+            <input id="ff-61766bc111f43d26e0bfc515-email" class="ff-61766bc111f43d26e0bfc515__control fd-form-control" type="text" maxlength="255" name="email" placeholder="Email" data-ff-tab="email:firstName:submit" required />
+            <label for="ff-61766bc111f43d26e0bfc515-email" class="ff-61766bc111f43d26e0bfc515__label fd-form-label">Email</label>
+          </div>
+
+          <div class="ff-61766bc111f43d26e0bfc515__field fd-form-group">
+            <input type="checkbox" id="privacy_policy_checkbox" required>
+            <label for="privacy_policy_checkbox">Ich habe die Datenschutzerklärung zur Kenntnis genommen und bin damit einverstanden, dass die von mir angegebenen Daten elektronisch erhoben und gespeichert werden. Meine Daten werden dabei nur streng zweckgebunden zur Bearbeitung und Beantwortung meiner Anfrage genutzt.</label>
+          </div>
+          <!--tpl {% endblock %} tpl-->
+        </div>
+
+        <div class="ff-61766bc111f43d26e0bfc515__footer" data-ff-el="footer">
+          <button type="submit" class="ff-61766bc111f43d26e0bfc515__button fd-btn" data-ff-el="submit" data-ff-tab="submit">
+            <span>Abonnieren</span>
+          </button>
+        </div>
+      </div>
+      <div class="ff-61766bc111f43d26e0bfc515__success fd-form-success" data-ff-el="success">
+        Vielen Dank!
+      </div>
+      <div class="ff-61766bc111f43d26e0bfc515__error fd-form-error" data-ff-el="error"></div>
+    </form>
+  </div>
+</div>
+<script>
+  (function(w, d, t, h, s, n) {
+    w.FlodeskObject = n;
+    var fn = function() {
+      (w[n].q = w[n].q || []).push(arguments);
+    };
+    w[n] = w[n] || fn;
+    var f = d.getElementsByTagName(t)[0];
+    var v = '?v=' + Math.floor(new Date().getTime() / (120 * 1000)) * 60;
+    var sm = d.createElement(t);
+    sm.async = true;
+    sm.type = 'module';
+    sm.src = h + s + '.mjs' + v;
+    f.parentNode.insertBefore(sm, f);
+    var sn = d.createElement(t);
+    sn.async = true;
+    sn.noModule = true;
+    sn.src = h + s + '.js' + v;
+    f.parentNode.insertBefore(sn, f);
+  })(window, document, 'script', 'https://assets.flodesk.com', '/universal', 'fd');
+</script>
+<script>
+  window.fd('form:handle', {
+    formId: '61766bc111f43d26e0bfc515',
+    rootEl: '.ff-61766bc111f43d26e0bfc515',
+  });
+</script>
